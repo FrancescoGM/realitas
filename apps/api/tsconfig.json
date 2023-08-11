@@ -1,4 +1,0 @@
-{
-  "extends": "@realitas/ts-config/tsconfig.base.json",
-  "include": ["src"]
-}
