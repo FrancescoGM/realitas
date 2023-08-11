@@ -1,0 +1,10 @@
+$ tsup src
+[34mCLI[39m Building entry: src/index.ts, src/routes.ts, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v7.2.0
+[34mCLI[39m Target: node16
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.js  [22m[32m1.47 KB[39m
+[32mCJS[39m [1mdist\routes.js [22m[32m1.35 KB[39m
+[32mCJS[39m [1mdist\server.js [22m[32m1.70 KB[39m
+[32mCJS[39m ⚡️ Build success in 39ms
