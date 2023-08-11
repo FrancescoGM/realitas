@@ -1,0 +1,3 @@
+{
+  "extends": ["@realitas/eslint-config", "next/core-web-vitals"]
+}

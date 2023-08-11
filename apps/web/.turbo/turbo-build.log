@@ -1,0 +1,36 @@
+$ next build
+- info Creating an optimized production build...
+(node:10660) [DEP_WEBPACK_MODULE_UPDATE_HASH] DeprecationWarning: Module.updateHash: Use new ChunkGraph API
+(Use `node --trace-deprecation ...` to show where the warning was created)
+- info Compiled successfully
+- info Linting and checking validity of types...
+- info Collecting page data...
+- info Generating static pages (0/6)
+- info Generating static pages (1/6)
+- info Generating static pages (2/6)
+- info Generating static pages (4/6)
+- info Generating static pages (6/6)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /favicon.ico                           0 B                0 B
+├ ○ /forgot                                494 B           147 kB
+├ ○ /signin                                492 B           147 kB
+└ ○ /signup                                494 B           147 kB
++ First Load JS shared by all              141 kB
+  ├ chunks/1dd3208c-0992a00350b59a83.js    50.5 kB
+  ├ chunks/575-46c6af03659f32c1.js         25.9 kB
+  ├ chunks/648-b499795b3bda4199.js         62.4 kB
+  ├ chunks/main-app-628e170543f6fe34.js    216 B
+  └ chunks/webpack-b42278e9a247059f.js     1.73 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   178 B          75.7 kB
++ First Load JS shared by all              75.5 kB
+  ├ chunks/framework-0857c1c24dbfb1d6.js   45 kB
+  ├ chunks/main-67508d1665ca65b0.js        28.6 kB
+  ├ chunks/pages/_app-12a7bb3ca92362ee.js  195 B
+  └ chunks/webpack-b42278e9a247059f.js     1.73 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

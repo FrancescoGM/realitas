@@ -1,0 +1,25 @@
+{
+  "name": "realitas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "FrancescoGM <francescogmuller@hotmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "start": "turbo run start --parallel",
+    "lint": "turbo run lint --parallel",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "turbo": "^1.10.12"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}

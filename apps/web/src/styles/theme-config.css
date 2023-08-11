@@ -1,0 +1,8 @@
+.radix-themes {
+  --default-font-family: var(--font-inter);
+  background-image: radial-gradient(
+    circle,
+    color-mix(in hsl, var(--accent-9) 10%, transparent) 10%,
+    var(--color-background)
+  );
+}
