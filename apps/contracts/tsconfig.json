@@ -1,0 +1,12 @@
+{
+  "extends": "@realitas/ts-config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@core/*": ["core/*"],
+      "@infra/*": ["infra/*"],
+      "@modules/*": ["modules/*"],
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@realitas/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@realitas/eslint-config": "*",
+    "@realitas/ts-config": "*",
+    "@types/uuid": "^9.0.2",
+    "eslint": "^8.47.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
